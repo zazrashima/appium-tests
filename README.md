@@ -4,7 +4,10 @@ This repository contains basic tests to verify Search feature of Wikipedia Andro
 - Verify search results contain relevant articles.
 - Verify search results should be empty.
 
-Test reports are generated in `ExtentReports` folder automatically. In case failed tests, immediate screenshots are captured and displayed in the report as well.
+Test reports are generated in `ExtentReports` folder automatically
+![report](https://i.imgur.com/tpmQKV8.png)<br/>
+
+In case failed tests, immediate screenshots are captured and displayed in the report as well.
 
 ## System Requirements
 Android
@@ -21,7 +24,8 @@ Maven 3.3+
 * Appium: http://appium.io/docs/en/about-appium/getting-started/
 
 ## Setting up
-Appium desired capabilities to start tests are initialized through [config.json](https://github.com/zazrashima/appium-tests/blob/master/src/test/resources/config.json) file. Change [deviceName](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L3) and [platFormVersion](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L4) value to map with the device under test.
+* Appium desired capabilities to start tests are initialized through [config.json](https://github.com/zazrashima/appium-tests/blob/master/src/test/resources/config.json) file. Change [deviceName](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L3) and [platFormVersion](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L4) value to map with the device under test.
+* Plug-in your 
 
 ## Run tests
 Execute maven command to run tests from the project root:<br/>
