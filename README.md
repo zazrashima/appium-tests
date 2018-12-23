@@ -7,7 +7,8 @@ This repository contains basic tests to verify Search feature of Wikipedia Andro
 Test reports are generated in `ExtentReports` folder automatically
 ![report](https://i.imgur.com/tpmQKV8.png)<br/>
 
-In case failed tests, immediate screenshots are captured and displayed in the report as well.
+In case failed tests, immediate screenshots and stack trace are captured and displayed in the report.
+![failed-report](https://i.imgur.com/xEtI8rQ.png)<br/>
 
 ## System Requirements
 Android
@@ -25,7 +26,9 @@ Maven 3.3+
 
 ## Setting up
 * Appium desired capabilities to start tests are initialized through [config.json](https://github.com/zazrashima/appium-tests/blob/master/src/test/resources/config.json) file. Change [deviceName](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L3) and [platFormVersion](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L4) value to map with the device under test.
-* Plug-in your 
+* Device:
+** Turn on the phone developer mode (go to Settings -> Developer options).
+** Connect your Android device to the computer using USB cable. Just confirm if prompted for accepting/trusting the phone.
 
 ## Run tests
 Execute maven command to run tests from the project root:<br/>
