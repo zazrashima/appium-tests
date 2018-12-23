@@ -4,6 +4,8 @@ This repository contains basic tests to verify Search feature of Wikipedia Andro
 - Verify search results contain relevant articles.
 - Verify search results should be empty.
 
+Test reports are generated in `ExtentReports` folder automatically. In case failed tests, immediate screenshots are captured and displayed in the report as well.
+
 ## System Requirements
 Android
 * Mac OSX or Windows or Linux
