@@ -27,9 +27,9 @@ Maven 3.3+
 ## Setting up
 * Appium desired capabilities to start tests are initialized through [config.json](https://github.com/zazrashima/appium-tests/blob/master/src/test/resources/config.json) file. Change [deviceName](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L3) and [platFormVersion](https://github.com/zazrashima/appium-tests/blob/dc9492f4243bf9e36da0712c7c7385b4ce8fd38e/src/test/resources/config.json#L4) value to map with the device under test.
 * Device:
-** Turn on the phone developer mode (go to Settings -> Developer options).
-** Connect your Android device to the computer using USB cable. Just confirm if prompted for accepting/trusting the phone.
+  * Turn on the phone developer mode (go to Settings -> Developer options).
+  * Connect your Android device to the computer using USB cable. Just confirm if prompted for accepting/trusting the phone.
 
 ## Run tests
-Execute maven command to run tests from the project root:<br/>
+Execute this command to run tests from the project root (where pom.xml resides):<br/>
 `mvn test`
