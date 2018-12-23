@@ -1,0 +1,7 @@
+<suite name="SearchSuite" verbose="1">
+    <test name="all-tests">
+        <classes>
+            <class name="com.wikipedia.android_app.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
