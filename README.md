@@ -29,6 +29,7 @@ Maven 3.3+
 * Device:
   * Turn on the phone developer mode (go to Settings -> Developer options).
   * Connect your Android device to the computer using USB cable. Just confirm if prompted for accepting/trusting the phone.
+  * Make sure the device can access the internet.
 
 ## Run tests
 Execute this command to run tests from the project root (where pom.xml resides):<br/>
